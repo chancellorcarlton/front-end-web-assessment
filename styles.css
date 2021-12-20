@@ -58,3 +58,11 @@ img {
 	align-items: center;
 	flex-direction: column;
 }
+
+.favorite-buttons {
+    height: 50px;
+    width: 25%;
+    color: black;
+    border: solid 1px orange;
+    background-color: orange;
+}

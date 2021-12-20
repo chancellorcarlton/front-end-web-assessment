@@ -19,7 +19,7 @@
         <ul class='ulClass'>
             <li>HTML</li>
             <li>CSS</li>
-            <li>Javascript</li>
+            <li>JavaScript</li>
             <li>Sales</li>
             <li>Business Management</li>
             <li>Software Development</li>
@@ -46,6 +46,7 @@
         <label for='no'>No</label><input type='radio' name='radio' value='no' id='noRadio'/>
         <p>Your Email</p>
         <input type='text' placeholder='Please enter your email'>
+        <br>
         <button>Submit</button>
     </form>
 
@@ -53,9 +54,11 @@
     <hr>
     <br>
 
-    <button id="color">My Favorite Color</button>
-    <button id="place">My Favorite Place</button>
-    <button id="ritual">My Favorite Ritual</button> 
+    <div id='btnContainer'>
+    <button id="color" class='favorite-buttons'>My Favorite Color</button>
+    <button id="place" class='favorite-buttons'>My Favorite Place</button>
+    <button id="ritual" class='favorite-buttons'>My Favorite Ritual</button> 
+    </div>
 
 <script src="about.js"></script>
 
